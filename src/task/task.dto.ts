@@ -2,7 +2,7 @@ export class CreateTaskDto {
   title: string;
   description: string;
   status: string;
-  expirationDate: Date;
+  expirationDate: string;
 }
 export class TaskDto extends CreateTaskDto {
   id: string;
